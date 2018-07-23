@@ -24,6 +24,10 @@ def perform_lookup():
 
             if search_result:
                 print('{}: {}'.format(line_num, line))
+                return
+
+        print('Word not found')
+
 
 
 if __name__ == '__main__':
